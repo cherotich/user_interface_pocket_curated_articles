@@ -1,10 +1,18 @@
 .App {
   text-align: center;
 }
+.img_icon {
+  position: absolute;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.name_btn {
+  position: relative;
+  top: 150px;
+  left: 50px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

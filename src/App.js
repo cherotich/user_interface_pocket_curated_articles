@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './images/pocket_icon1.png';
+import Button from '@material-ui/core/Button'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div className="">
+</div>
+<img className="img_icon" src={logo} alt="Smiley face" height="200px"/>
+<Button className="name_btn" variant="outlined" color="primary" disableElevation >
+Caroline Cherotich
+</Button>
     </div>
   );
 }
